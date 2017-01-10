@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.2",
-    "uniqCompNum": 13,
+    "uniqCompNum": 18,
     "versionPublish": "3.10.2"
   },
   "pages": {
@@ -43,22 +43,29 @@
           "_styles": {
             ".mbr-section-title": {
               "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "color": "#000000"
+            },
+            ".mbr-section-lead": {
+              "font-family": "'Droid Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
+              "font-size": "36px",
+              "color": "#000000"
             }
           },
-          "_anchor": "header1-c",
+          "_anchor": "header1-f",
           "_params": {
-            "parallax": true,
+            "parallax": false,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/2-2000x1579-80.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/est-squashed-2000x1579-19.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": true,
+            "overlay": false,
             "overlayOpacity": "0.2",
             "overlayColor": "#000",
             "contentAlign": "center",
@@ -66,8 +73,8 @@
             "showText": true,
             "showButtons": false
           },
-          "title": "<br><br><br>O.W. ANDERSON",
-          "text": "OPTIK",
+          "title": "<br><br><br><br>O.W. ANDERSON<br>",
+          "text": "<span style=\"font-style: normal;\">Optik</span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
@@ -167,15 +174,15 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/adobestock-102065718-2000x1333-11.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/adobestock-80814455-squashed-2000x1128-41.png",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "overlay": true,
+            "overlayOpacity": "0.2",
             "overlayColor": "#000",
             "contentAlign": "center",
             "showTitle": true,
@@ -216,7 +223,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/adobestock-102065718-wm-600x400-57.png",
+              "src": "@PROJECT_PATH@/assets/images/adobestock-47382800-squashed-600x396-72.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -229,10 +236,10 @@
           "title1": "DESCRIPTION",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "TEXT",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/adobestock-101298112-wm-600x400-2.png",
+              "src": "@PROJECT_PATH@/assets/images/adobestock-10937069-squashed-600x400-46.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -248,7 +255,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/adobestock-48526260-wm-600x400-22.png",
+              "src": "@PROJECT_PATH@/assets/images/adobestock-95726290-squashed-600x399-29.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -264,7 +271,7 @@
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/adobestock-64082234-wm-600x400-48.png",
+              "src": "@PROJECT_PATH@/assets/images/adobestock-102065718-squashed-600x400-64.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -277,7 +284,7 @@
           "title4": "DESCRIPTION",
           "subtitle4": "Mobirise gives you the freedom to develop",
           "caption4": "TEXT",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media5": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
@@ -304,38 +311,29 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-9",
-          "_params": {
-            "paddingTop": "5",
-            "paddingBottom": "5",
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/adobestock-100988061-wm-2000x860-82.png",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+          "_name": "image1",
+          "_anchor": "image1-h",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/essilor-header-0000-05b-investisseurs-1400x551-83.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0",
-            "overlayColor": "#222",
-            "showTitle": false,
-            "showText": false,
-            "showButton": false
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
           },
-          "title": "ARTICLE HEADER",
-          "text": "<p>Article header with background image and parallax effect.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+          "_params": {
+            "showText": true
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
         },
         {
           "_inherit": "content5",
@@ -343,6 +341,16 @@
             ".mbr-section-title, p": {
               "text-align": "right",
               "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "23px"
+            },
+            ".mbr-section-title SPAN": {
+              "text-align": "center"
             }
           },
           "_tags": [
@@ -361,46 +369,17 @@
             "bgVideo": {
               "width": 1280,
               "height": 720,
-              "url": "https://www.youtube.com/embed/7uQgxONt9Xg?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+              "url": "https://www.youtube.com/embed/nExLqBEnbi0?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
             "bgVideoRadio": true,
-            "overlay": true,
+            "overlay": false,
             "overlayOpacity": "0.4",
             "overlayColor": "#000",
-            "showTitle": true,
+            "showTitle": false,
             "showCaption": true
           },
-          "title": "BACKGROUND VIDEO",
-          "caption": "<p>TEXT.</p>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#232323"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons2",
-          "_anchor": "social-buttons2-5",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1423666639041-f56000c27a9a-2000x1328-49.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.2",
-            "overlayColor": "#7e9b9f"
-          },
-          "text": "FOLLOW US",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>      "
+          "title": "<span style=\"font-size: 3rem; line-height: 1.1;\">VÄLKOMMEN IN OCH PROVA BÅGAR</span><br>",
+          "caption": "<p><span style=\"font-size: 17px; line-height: 25px;\"><b>VÄLKOMMEN IN OCH PROVA BÅGAR</b></span></p>"
         },
         {
           "_tags": [
@@ -460,10 +439,44 @@
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-5",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1-2000x1328-1.png",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#7e9b9f"
+          },
+          "text": "FOLLOW US",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>      "
+        },
+        {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "contacts1-7",
           "_params": {
             "paddingTop": 3,
@@ -471,7 +484,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -479,7 +492,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/ow-backgroundless-128x123-67.png",
+              "src": "@PROJECT_PATH@/assets/images/owa-2-gold-and-silver-128x123-85.png",
               "width": 128,
               "active": true,
               "link": "",
@@ -493,8 +506,8 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>Kristianstad <br>City, AA 99999",
-          "text2": "<strong>Contacts</strong><br>\nEmail: contact@owaoptik.se<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text1": "<strong>Address</strong><br>Ö Boulevarden 44, Kristianstad.<br>www.owaoptik.se",
+          "text2": "<strong>Contacts</strong><br>\nEmail: info@owaoptik.se<br>\nPhone: 044 21 38 49<br>",
           "text3": "<p><strong>Links</strong><br>\n<a href=\"www.voltgroup.com.mx\">Site made by Volt Group</a><a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></p>"
         },
         {

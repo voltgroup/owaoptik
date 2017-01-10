@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+
 
 
 
@@ -412,8 +414,14 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
-#header1-c .mbr-section-title {
+#header1-f .mbr-section-title {
   font-family: 'Raleway', sans-serif;
+  color: #000000;
+}
+#header1-f .mbr-section-lead {
+  font-family: 'Droid Serif', serif;
+  font-size: 36px;
+  color: #000000;
 }
 #ext_menu-0 .hide-buttons .nav-btn {
   display: none !important;
@@ -476,14 +484,23 @@ h6,
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
   color: #3d8eb9!important;
 }
-#msg-box8-9 .mbr-section-title,
-#msg-box8-9 p {
-  color: #fff;
-}
 #content8-4 .mbr-section-title,
 #content8-4 p {
   text-align: right;
   color: #fff;
+}
+#content8-4 .mbr-section-title {
+  text-align: center;
+}
+#content8-4 P {
+  text-align: left;
+  font-size: 23px;
+}
+#content8-4 .mbr-section-title SPAN {
+  text-align: center;
+}
+#form1-6 .form-control-label {
+  color: #232323;
 }
 #social-buttons2-5 .mbr-section-title,
 #social-buttons2-5 .btn-social {
@@ -492,6 +509,6 @@ h6,
 #social-buttons2-5 .mbr-section-title {
   color: #ffffff;
 }
-#form1-6 .form-control-label {
-  color: #232323;
+#contacts1-7 P {
+  color: #000000;
 }
