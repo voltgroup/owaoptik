@@ -7,6 +7,9 @@
 
 
 
+
+
+
 body,
 input,
 textarea,
@@ -484,6 +487,20 @@ h6,
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
   color: #3d8eb9!important;
 }
+#header1-2 .mbr-section-lead {
+  font-family: 'Montserrat', sans-serif;
+}
+#header3-m .mbr-section-title,
+#header3-m .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-m SMALL {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+#image1-h DIV {
+  font-size: 22px;
+}
 #content8-4 .mbr-section-title,
 #content8-4 p {
   text-align: right;
@@ -498,6 +515,9 @@ h6,
 }
 #content8-4 .mbr-section-title SPAN {
   text-align: center;
+}
+#slider-s P {
+  font-family: 'Montserrat', sans-serif;
 }
 #form1-6 .form-control-label {
   color: #232323;
@@ -580,5 +600,73 @@ h6,
   color: #3d8eb9!important;
 }
 #contacts1-j P {
+  color: #000000;
+}
+
+#ext_menu-t .hide-buttons .nav-btn {
+  display: none !important;
+}
+#ext_menu-t .navbar-caption {
+  color: #ffffff;
+}
+#ext_menu-t .navbar-toggler {
+  color: #ffffff;
+}
+#ext_menu-t .close-icon::before,
+#ext_menu-t .close-icon::after {
+  background-color: #ffffff;
+}
+#ext_menu-t .link,
+#ext_menu-t .dropdown-item {
+  color: #ffffff;
+}
+#ext_menu-t .link {
+  font-size: 0.75rem;
+}
+#ext_menu-t .dropdown-item,
+#ext_menu-t .nav-dropdown-sm .link {
+  font-size: 0.812rem;
+}
+#ext_menu-t .link:hover,
+#ext_menu-t .dropdown-item:hover,
+#ext_menu-t .link:focus,
+#ext_menu-t .dropdown-item:focus {
+  color: #3d8eb9;
+}
+#ext_menu-t .link[aria-expanded="true"],
+#ext_menu-t .dropdown-menu {
+  background: #1f5087;
+}
+#ext_menu-t .nav-dropdown-sm .link:focus,
+#ext_menu-t .nav-dropdown-sm .link:hover,
+#ext_menu-t .nav-dropdown-sm .dropdown-item:focus,
+#ext_menu-t .nav-dropdown-sm .dropdown-item:hover {
+  background: #2662a4!important;
+}
+#ext_menu-t .navbar,
+#ext_menu-t .nav-dropdown-sm,
+#ext_menu-t .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-t .nav-dropdown-sm .dropdown-menu {
+  background: #2969b0;
+}
+#ext_menu-t .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#ext_menu-t .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#ext_menu-t .bg-color.transparent.opened .link:hover,
+#ext_menu-t .bg-color.transparent.opened .link:focus {
+  color: #3d8eb9;
+}
+#ext_menu-t .link[aria-expanded="true"],
+#ext_menu-t .dropdown-item[aria-expanded="true"] {
+  color: #3d8eb9!important;
+}
+#header1-w .mbr-section-lead {
+  font-family: 'Montserrat', sans-serif;
+}
+#contacts1-u P {
   color: #000000;
 }
