@@ -512,6 +512,12 @@ h6,
 #contacts1-7 P {
   color: #000000;
 }
+#testimonials4-l .mbr-section-title {
+  color: #ffffff;
+}
+#testimonials4-l .card-footer > div {
+  color: #ffffff;
+}
 #ext_menu-i .hide-buttons .nav-btn {
   display: none !important;
 }
