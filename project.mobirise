@@ -322,7 +322,7 @@
           },
           "title": "Suddigt på långt håll eller oskarpt vid läsning?",
           "text": "Om synen är suddig när du tittar på långt håll eller texten oskarp när du läser bör du boka en tid för synundersökning. Vi rekomenderar vanligtvis synundersökning vartannat år. Kontakta gärna oss för tidsbokning till optiker eller ögonläkare vid behov.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Kontakta oss</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#form1-6\" data-toolbar=\"-mbrBtnMove\">Kontakta oss</a>"
         },
         {
           "_tags": [
@@ -589,6 +589,15 @@
             "Theme"
           ],
           "_name": "contacts4",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            },
+            "UL": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "contacts4-1i",
           "_params": {
             "paddingTop": 3,
@@ -632,16 +641,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Skicka</a>",
-          "_styles": {
-            ".btn": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            },
-            "UL": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Skicka</a>"
         },
         {
           "_tags": [
